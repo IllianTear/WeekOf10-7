@@ -93,15 +93,25 @@ print(slashCat)
 print(fancyCat)
 
 # Escape Seq            What it does?
+
+# This one(V) creates a backslash
 # \\
+# This one(V) just puts an apostrophe
 # \'
+# This one(V) just puts a quotation
 # \"
+# This one(V) creates a question mark in a box.
 # \a
+# This one(V) adds a period.
 # \b
+# This one(V)
 # \f
+# This one(V) creates a new line
 # \n
 # \N{name}
+# This one(V)
 # \r
+# This one(V) makes a tab
 # \t
 # \u
 # \uxxxx
