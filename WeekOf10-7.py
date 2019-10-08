@@ -47,23 +47,27 @@ print(end7 + end8 + end9 + end10 + end11 + end12)
 formatter = "%r %r %r %r"
 print(formatter % (1, 2, 3, 4))
 print(formatter % ("one", "two", "three", "four"))
-print(formatter % (True, False, False, True))
+print(formatter % (True, False, True, False))
 print(formatter % (formatter, formatter, formatter, formatter))
 
 # Why do I use %r instead of %s in the above example?
-# %r is just a place holder
+# %r is just representation of a string.
 # Which should I use on a regular basis?
+
 
 # Why does %r sometimes give me single quotes around things?
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
-
+bands = "\nPink Floyd\nQueen\nRush\nMetalica"
 print("Here are the days:", days)
 print("Here are the months:", months)
+print("Here are my favorite bands", bands)
+
 
 print("""
-There's something going on here.
 With the three double-quotes.
 We'll be able to type as much as we like.
-Even 4 lines if we want, or 5, or 6.""")
+Even 10 lines if we want, or 20, or 30.""")
+
+print("Here are the months: %r" % months)
