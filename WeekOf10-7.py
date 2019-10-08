@@ -91,3 +91,21 @@ print(calicoCat)
 print(blackCat)
 print(slashCat)
 print(fancyCat)
+
+# Escape Seq            What it does?
+# \\
+# \'
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \u
+# \uxxxx
+# \Uxxxxxxxx
+# \v
+# \ooo
+# \xhh
