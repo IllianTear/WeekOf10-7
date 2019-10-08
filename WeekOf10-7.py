@@ -70,4 +70,24 @@ With the three double-quotes.
 We'll be able to type as much as we like.
 Even 10 lines if we want, or 20, or 30.""")
 
+# examine closely the differences between %r formatter and %s formatter
 print("Here are the months: %r" % months)
+
+# escape sequences redux
+# This line tabs in a line
+calicoCat = "\tI'm tabbed in."
+# This line splits the line at the \n
+blackCat = "I'm split\non a line."
+# The double slashes puts a backslash in between words
+slashCat = "I'm \\ a \\ cat."
+# This line used both the tab and split
+fancyCat = """
+I'll do a list:
+\t* Cat Food
+\t Fishies*
+\t Catnip\n\t*Grass
+"""
+print(calicoCat)
+print(blackCat)
+print(slashCat)
+print(fancyCat)
