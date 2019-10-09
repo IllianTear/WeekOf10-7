@@ -141,3 +141,10 @@ age = input("How old are you?")
 height = input("how tall are you?")
 
 print("So, you are%r old and %r tall." % (age, height))
+
+color = input("What is your favorite color?")
+book = input("What book are you reading?")
+game = input("What is your favorite game?")
+video = input("Who is your favorite yter?")
+
+print("So, your favorite color, book, game, and youtuber are %r, %r, %r, and %r." % (color, book, game, video))
