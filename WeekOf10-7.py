@@ -102,20 +102,33 @@ print(fancyCat)
 # \"
 # This one(V) creates a question mark in a box.
 # \a
-# This one(V) adds a period.
+# This one(V) creates a backspace.
 # \b
 # This one(V)
 # \f
 # This one(V) creates a new line
 # \n
+# This one(V)
 # \N{name}
 # This one(V)
 # \r
 # This one(V) makes a tab
 # \t
+# This one(V)
 # \u
+# This one(V) creates a value of 16.
 # \uxxxx
+# This one(V) creates a value of 32.
 # \Uxxxxxxxx
+# This one(V) creates a verticle tab.
 # \v
+# This one(V)
 # \ooo
 # \xhh
+
+# What does the following code do:
+#   while True:
+#       for i in ["/","-", "|", "\\", "|"]:
+#           print("%r" % i, end='')
+
+# Can you use ''' instead of """?
