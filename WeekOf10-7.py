@@ -130,5 +130,14 @@ print(fancyCat)
 #   while True:
 #       for i in ["/","-", "|", "\\", "|"]:
 #           print("%r" % i, end='')
-
+# This ^ creates an endless repetition of those symbols.
 # Can you use ''' instead of """?
+# No they do not.
+'''Will 
+these work 
+the same way?'''
+
+age = input("How old are you?")
+height = input("how tall are you?")
+
+print("So, you are%r old and %r tall." % (age, height))
